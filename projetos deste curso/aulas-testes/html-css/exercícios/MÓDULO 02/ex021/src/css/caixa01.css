@@ -1,0 +1,49 @@
+h1 { /*AQUI TEMOS UM BLOCK-LEVEL*/
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid darkslategray; 
+    /*ACIMA TEMOS A FORMA SHORTHAND DA CONFIGURAÇÃO DA BORDA, QUE É IGUAL A CONFIGURAÇÃO ABAIXO*/
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray; */
+
+    padding: 10px;
+    /*ACIMA TEMOS A FORMA SHORTHAND DA CONFIGURAÇÃO DO PADDING, QUE É IGUAL A CONFIGURAÇÃO ABAIXO*/    
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+
+    /*margin: auto;*/ /*AQUI TEMOS A CONFIGURAÇÃO QUE SE UTILIZADA EM TAGS BLOCK-LEVEL IRÁ CANTRALIZAR NO MEIO DA PÁGINA O CONTEÚDO*/
+    
+    margin: 20px 20px 40px 20px;
+    /*ACIMA TEMOS A FORMA SHORTHAND DA CONFIGURAÇÃO DA MARGIN, QUE É IGUAL A CONFIGURAÇÃO ABAIXO*/
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px; */
+
+    outline: 05px dashed salmon;
+    /*ACIMA TEMOS A FORMA SHORTHAND DA CONFIGURAÇÃO DO OUTLINE, QUE É IGUAL A CONFIGURAÇÃO ABAIXO*/
+    /* outline-width: 05px;
+    outline-style: dashed;
+    outline-color: salmon; */
+}
+
+a { /*AQUI TEMOS UM INLINE-LEVEL*/
+    border: 10px groove red;
+    /*ACIMA TEMOS A FORMA SHORTHAND DA CONFIGURAÇÃO DA BORDA, QUE É IGUAL A CONFIGURAÇÃO ABAIXO*/
+    /* border-width: 10px;
+    border-style: groove;
+    border-color: red; */
+
+    padding: 10px 10px;
+    /*ACIMA TEMOS A FORMA SHORTHAND DA CONFIGURAÇÃO DO PADDING, QUE NESTE CASO SEGUE CIMA / BAIXO 10PX E ESQUERDA / DIREITA 10PX DA CONFIGURAÇÃO ABAIXO*/ 
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+}
+

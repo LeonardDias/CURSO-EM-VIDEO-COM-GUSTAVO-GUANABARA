@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <P>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</P>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="Imagem flexível">
+
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <!-- FORMATOS MAIS UTILIZADOS MP3, WAV, OGG -->
+    <!-- <audio src="midia/Final Fantasy - Prelude (Orchestral).mp3" autoplay controls loop></audio> -->
+        <Audio preload="metadata" controls >
+            <source src="midia/FinalFantasy-Prelude.ogg" type="audio/ogg">
+            <!-- <source src="midia/FinalFantasy-Prelude.mp3" type="audio/mpeg">
+            <source src="midia/FinalFantasy-Prelude.wav" type="audio/wav"> -->
+            <p>Infelizmente seu navegador não consegue reproduzir áudio. Clique aqui para baixar o arquivo do <a href="midia/FinalFantasy-Prelude.mp3">áudio</a>.</p>
+        </Audio>
+    </picture>
+</body>
+</html>

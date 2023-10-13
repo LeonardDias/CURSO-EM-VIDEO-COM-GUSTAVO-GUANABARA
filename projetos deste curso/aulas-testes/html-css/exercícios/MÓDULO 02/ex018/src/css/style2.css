@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Oldlondon';
+    src: url('../fonts/OldLondon.ttf') format('truetype'), url('../fonts/Olondon_.otf') format('opentype');
+    /* Existem os seguintes tipos de formart: 
+        opentype (otf)
+        truetype (ttf)
+        embedded-opentype
+        truetype-aat (Apple Advanced Typography)
+        svg       
+        */
+}
+
+h1 {
+    font-family: 'Oldlondon', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+p {
+    font-family: 'Oldlondon';
+    width: 200px;
+    text-align: justify;
+}

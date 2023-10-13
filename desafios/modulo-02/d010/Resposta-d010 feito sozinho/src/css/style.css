@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Idroid';
+    src: url('../fonts/idroid.otf') format('opentype');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.cabecalho {
+    background-image: linear-gradient(to bottom, #80f399, #18381f);
+    padding-bottom: 10px;
+}
+
+
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    padding: 30px;
+    text-shadow: 2px 2px 2px black;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px 2px black;
+}
+
+nav > a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: #c5eece;
+    /*AQUI ABAIXO TEMOS O CENTRALIZADOR DO .CONTEUDO*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    background-color: white;
+    width: 60vw;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px black;;
+}
+
+.texto {
+    color: #315e3b;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Idroid';
+    color: #1d682d;
+    margin: 10px;
+}
+
+h3 {
+    font-family: 'Idroid';
+    background-image: linear-gradient(to right, #b4f7c2, #ffffff);
+    color: #1d682d;
+    margin: 12px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 15px;
+}
+
+picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    background-color: #315e3b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos {
+    margin: 10px;
+    background-color: #c7f3d1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;;
+}
+
+.mais {
+    background-color: #30ad4b;
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    color: #ffffff;
+    text-indent: 0;
+}
+
+ul {
+    margin-left: 30px;
+    list-style-image: url(../img/verifica.png);
+    display: inline-block;
+    
+}
+
+.ul2 {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+footer {
+    background-color: #315e3b;
+}
+
+.pfooter {
+    margin: 0;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+}

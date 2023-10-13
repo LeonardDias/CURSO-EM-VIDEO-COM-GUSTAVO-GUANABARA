@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div > p { /*AQUI ESTAMOS DIZENDO PARA ESCOLHER O FILHO DENTRO DA DIV, QUE NO CASO O FILHO É P*/
+    display: none;
+}
+
+div:hover > p { /*AQUI ESTAMOS MOSTRANDO O TEXTO ESCONDIDO FEITO NO SELETOR ACIMA, OU SEJA DEPOIS DE PASSAR O MOUSE NO P ELE IRÁ MOSTRAR O TEXTO ESCONDIDO*/
+    display: block;
+    color: white;
+    background-color: red;
+    width: 300px;
+}
+
+div:hover { /*AQUI ESTAMOS COLOCANDO QUE ASSIM QUE PASSARMOS O MOUSE EM CIMA DA DIV E DO SEU FILHO QUE É O P, ELA FICARÁ VERMELHO*/
+    color: red;
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8"; /*Utilizado para ter maior compatibilidade com a acentuação na internet*/
+
+* { /*Seletor utilizado para usar o conteúdo abaixo na página inteira*/
+    font-family: Arial, Helvetica, sans-serif; /*Família da fonte usada na página inteira, pois foi colocada dentro do seletor*/
+}
+
+body { /*Seletor usado dentro da TAG BODY, ou seja o que estiver dentro desta tag será modificado dentro dela*/
+    background-image: linear-gradient(to right, #F1D8C9, #F2C3A7); /*Aqui estamos mudando o fundo do site que está dentro da TAG BODY*/
+}
+
+main { /*Este seletor é para a tag MAIN que é utilizada para a parte principal do site*/
+    background-color: white; /*Cor de fundo*/
+    border-radius: 10px; /*Utilizado para fazer a curvinha do quadrado na quina do espaço*/
+    box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.616); /*Aqui é utilizado para fazer o sombreamento do espaço e segue os parametros: deslocamento horizontal, deslocamento vertical, desfoque da sombra e cor da sombra*/
+    width: 600px; /*Largura selecionada apenas dentro da tag MAIN*/
+    padding: 10px; /*Espaçamento depois do conteúdo utilizado, aprete F12 e olhe, na parte do box*/
+    margin: auto; /*Utilizado para centralizar os objetos na página, neste caso, mas pode ser utilizado para mais conteúdos*/
+}
+
+h1 { /*Seletor para o Título*/
+    color: #F39209; /*Cor do texto digitado*/
+    text-align: center; /*Alinha o texto no centro*/
+    text-shadow: 1px 1px 2px rgba(136, 109, 93, 0.616); /*Aqui é utilizado para fazer o sombreamento do texto digitado e segue os parametros: deslocamento horizontal, deslocamento vertical, desfoque da sombra e cor da sombra*/
+}
+
+h2 { /*Seletor do sub-Título*/
+    color: #125189; /*Cor do Sub-título*/
+}
+
+p { /*Seletor para o texto digitado*/
+    text-align: justify; /*Para justificar o texto*/
+}
