@@ -3,5 +3,7 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://leonarddias.github.io/Curso-em-video-com-Gustavo-Guanabara/projetos%20deste%20curso/aulas-testes/html-css/exerc%C3%ADcios/M%C3%93DULO%2001/ex001/">Executar o exercício 001</a>
+Aqui está o 1º Desafio proposto pelo curso e finalizado com sucesso!!! 
+
+<a href="https://leonarddias.github.io/Curso-em-video-com-Gustavo-Guanabara/desafios/modulo-02/d010/Resposta-d010%20ANDROID/index.html">Clique aqui para ver o desafio concluído</a>
  
