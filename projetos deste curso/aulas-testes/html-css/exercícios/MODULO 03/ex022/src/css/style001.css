@@ -1,0 +1,24 @@
+body {
+    background-image: url('../img/wallpaper001.jpg'); /*aqui temos o back-ground-image do site*/
+}
+
+div.quadrado {
+    display: inline-block; /*coloca os blocos em linha*/
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+}
+
+div#q1 { /*neste caso lembre-se que a CSS é em cascata, por isso a cor irá ficar azul*/
+    background-color: skyblue;
+}
+
+div#q2 {
+    background-image: linear-gradient(to bottom, yellow, red); /*aqui ficrá em um degrade de amarelo para vermelho*/
+}
+
+div#q3 { /*e aqui usaremos uma imagem*/
+    background-image: url('../img/pattern003.png');
+}

@@ -1,0 +1,7 @@
+body {
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    /*a imagem sempre será carregada no tamanho padrão, mas abaixo demos um tamanho para ela*/
+    background-size: 100px 100px; 
+    /*abaixo iremos escolher quantas vezes a imagem irá repetir, existem várias configurações*/
+    background-repeat: no-repeat;
+}
