@@ -1,0 +1,19 @@
+body {
+    height: 100vh; /*aqui é a configuração para a imagem ter o tamanho total da viewport*/
+    background-color: black;
+    background-image: url('../img/wallpaper002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; /*este comando COVER coloca a imagem cobrindo 100% da viewport, porém ele pode cortar um pedaço das bordas da imagem.*/
+    /*as propriedades do background-size são: cover, contain, auto e tamanhos escolhidos por você, ex: pixel, %, vh, vw, etc....;*/
+}
+
+main {
+    background-color: white;
+    /* height: 400px; */
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
