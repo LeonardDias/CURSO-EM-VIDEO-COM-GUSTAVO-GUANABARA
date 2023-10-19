@@ -1,0 +1,91 @@
+Html, body {
+    background-color: darkgray;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: 'Passion One', sans-serif;
+    font-variant: small-caps;
+    font-size: 10vw;
+    padding-top: 50px;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+    font-size: 2.5vw;
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+/* main > section > p {
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+
+.imagem1{
+    background-image: url('../img/background001.jpg');
+    background-size: 100vw;
+
+    background-repeat: no-repeat;
+
+}
+
+.texto{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+#transparencia {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 43%;
+    margin-left: 50px;
+} */
+
+footer {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
