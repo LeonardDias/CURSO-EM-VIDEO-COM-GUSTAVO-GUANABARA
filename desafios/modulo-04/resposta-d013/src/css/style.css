@@ -27,17 +27,18 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 640px;
-    width: 311px;
-    background: url(../img/s23ultra.png) no-repeat ;
+    height: 880px;
+    width: 741px;
+    background: url(../img/note9-azul-frete.png) no-repeat ;
 }
 
 iframe#tela {
     position: relative;
-    top: 5px;
-    left: 7px;
-    width: 290px;
-    height: 625px;
+    top: 40px;
+    left: 102px;
+    width: 405px;
+    height: 807px;
+    border-radius: 15PX;
 }
 
 section#redes-sociais {
